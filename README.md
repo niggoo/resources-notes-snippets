@@ -1,1 +1,1 @@
-# technology-topics
+# Resources n Notes worth remembering
