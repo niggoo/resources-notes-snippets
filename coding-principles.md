@@ -50,3 +50,7 @@ one should "depend upon abstractions, [not] concretions."
 ## Thorough and Timely
 * Should cover every use case scenario and NOT just aim for 100% coverage.
 * Should try to aim for Test Driven Development (TDD) so that code does not need re-factoring later.
+
+### References
+
+[https://github.com/ghsukumar/SFDC_Best_Practices/wiki/F.I.R.S.T-Principles-of-Unit-Testing](https://github.com/ghsukumar/SFDC_Best_Practices/wiki/F.I.R.S.T-Principles-of-Unit-Testing)
