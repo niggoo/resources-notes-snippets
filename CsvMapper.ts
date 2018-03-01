@@ -1,9 +1,8 @@
 export class CsvMapper {
-    static write<T>(schema: Array<string>, array: Array<T>, ...mappingFuncs: Array<(a:T) => any>): string {
-        if (schema.length != mappingFuncs.length) throw new Error("Schema and mappingfunc parameters do not match!");
-        return [schema.join(';')].concat(
+    static write<T>(schema: {[key: string]: (o:T) => any}, array: Array<T>): string {
+        return [Object.keys(schema).join(';')].concat(
             array.map(element =>
-                mappingFuncs.map(func => {
+                Object.values(schema).map(func => {
                     let result = func(element);
                     return (result) ? result : '';
                 }).join(';')
