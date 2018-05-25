@@ -1,5 +1,5 @@
 export class ArrayUtils {
-    static flatMap<I,R>(f: (e: I) => {}, xs) : Array<R> {
+    static flatMap<I,R>(f: (e: I) => Array<R>, xs: Array<I>) : Array<R> {
         return xs.reduce((acc, x) => acc.concat(f(x)), []);
     }
 
