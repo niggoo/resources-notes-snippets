@@ -1,0 +1,11 @@
+conda create --name env_name python=3.8
+
+conda install numpy
+conda install pandas
+conda install seaborn
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge tqdm
+
+
+
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
