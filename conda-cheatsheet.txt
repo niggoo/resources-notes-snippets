@@ -9,3 +9,15 @@ conda install -c conda-forge tqdm
 
 
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+
+
+
+conda env export > environment.yml
+conda env export --from-history > environment.yml
+
+conda env remove --name myenv
+
+conda env create -f environment.yml
+
+conda env list
