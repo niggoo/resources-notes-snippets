@@ -5,7 +5,7 @@ conda install pandas
 conda install seaborn
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge tqdm
-
+conda install -c conda-forge feature_engine
 
 
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
