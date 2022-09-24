@@ -3,12 +3,15 @@ conda create --name env_name python=3.8
 conda install numpy
 conda install pandas
 conda install seaborn
+
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge tqdm
 conda install -c conda-forge feature_engine
 conda install -c conda-forge jupyterlab jupyterlab-git
 
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+conda install -c huggingface transformers
+
+conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=10.2 
 
 
 
