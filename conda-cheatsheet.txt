@@ -7,6 +7,7 @@ conda install nltk
 
 conda install -c conda-forge scikit-learn
 conda install -c conda-forge tqdm
+conda install -c conda-forge spacy
 conda install -c conda-forge feature_engine
 conda install -c conda-forge jupyterlab jupyterlab-git
 
