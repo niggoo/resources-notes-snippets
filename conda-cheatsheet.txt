@@ -11,6 +11,7 @@ conda install -c conda-forge spacy
 conda install -c conda-forge feature_engine
 conda install -c conda-forge jupyterlab jupyterlab-git
 conda install -c conda-forge wandb
+conda install -c conda-forge gensim
 
 conda install -c conda-forge lightgbm
 conda install -c conda-forge py-xgboost
