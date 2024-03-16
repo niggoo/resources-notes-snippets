@@ -13,6 +13,8 @@ conda install -c conda-forge jupyterlab jupyterlab-git notebook
 conda install -c conda-forge wandb
 conda install -c conda-forge gensim
 
+conda install -c conda-forge rdkit
+
 conda install -c conda-forge lightgbm
 conda install -c conda-forge py-xgboost
 
