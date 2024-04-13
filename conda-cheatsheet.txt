@@ -13,6 +13,14 @@ conda install -c conda-forge jupyterlab jupyterlab-git notebook
 conda install -c conda-forge wandb
 conda install -c conda-forge gensim
 
+# XGBoost
+## CPU/GPU Auto-detect
+conda install -c conda-forge py-xgboost
+## CPU only
+conda install -c conda-forge py-xgboost-cpu
+## Use NVIDIA GPU
+conda install -c conda-forge py-xgboost-gpu
+
 conda install -c conda-forge rdkit
 
 conda install -c conda-forge lightgbm
