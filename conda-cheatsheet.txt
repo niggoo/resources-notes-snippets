@@ -24,11 +24,12 @@ conda install -c conda-forge py-xgboost-gpu
 conda install -c conda-forge rdkit
 
 conda install -c conda-forge lightgbm
-conda install -c conda-forge py-xgboost
 
 conda install -c huggingface transformers
 
-conda install -c pytorch pytorch torchvision torchaudio cudatoolkit=10.2 
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+
 
 
 
